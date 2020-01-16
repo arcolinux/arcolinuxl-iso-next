@@ -613,8 +613,8 @@ arcolinux-dconf-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
-#arco-calamares-dev
+#arco-calamares
+arco-calamares-dev
 #arco-calamares-comp
 arcolinux-system-installation-git
 
@@ -629,7 +629,7 @@ kconfig
 ki18n
 kservice
 kwidgetsaddons
-kpmcore
+kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
@@ -660,9 +660,9 @@ qt5-xmlpatterns
 #arcob-calamares-config-xfce-git
 #arcob-calamares-config-xmonad-git
 #arcob-calamares-config-xtended-git
-arco-calamares-config-git
+#arco-calamares-config-git
 #arco-calamares-config-comp-git
-#arco-calamares-config-dev-git
+arco-calamares-config-next-git
 #arcod-calamares-config-git
 #arcod-calamares-config-comp-git
 #arcod-calamares-config-dev-git
