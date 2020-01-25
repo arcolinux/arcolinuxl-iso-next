@@ -388,7 +388,7 @@ zsh-completions
 zsh-syntax-highlighting
 
 ###########################################################################
-#                           ARCOLINUX_REPO_ISO
+#                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
@@ -461,8 +461,7 @@ yay-bin
 #                               GAMES
 ###########################################################################
 
-#steam
-#steam-native-runtime
+#arcolinux-meta-steam
 #lutris
 #sauerbraten
 #xonotic
