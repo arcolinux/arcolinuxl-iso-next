@@ -114,6 +114,7 @@ xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
 #xf86-video-voodoo
+#xf86-video-sisusb
 mesa
 
 ###hardware video support
@@ -230,7 +231,6 @@ poppler-qt5
 ###applications
 atom
 chromium
-picom
 #darktable
 #deadbeef
 dmenu
@@ -256,7 +256,6 @@ qbittorrent
 scrot
 simplescreenrecorder
 termite
-tint2
 variety
 vlc
 
@@ -285,17 +284,6 @@ ttf-ubuntu-font-family
 #arc-icon-theme
 gnome-icon-theme
 #papirus-icon-theme
-
-###lightdm
-accountsservice
-lightdm
-
-###lx-applications
-lxappearance
-#lxappearance-gtk3
-lxappearance-obconf
-#lxappearance-obconf-gtk3
-lxrandr
 
 ###themes
 #adapta-gtk-theme
@@ -377,7 +365,6 @@ w3m
 webkit2gtk
 wmctrl
 xapps
-xcape
 xdo
 xdotool
 xdg-desktop-portal-gtk
@@ -435,9 +422,7 @@ glxinfo
 grub-customizer
 hardcode-fixer-git
 inxi
-menulibre
 mintstick-git
-mugshot
 neofetch
 numix-gtk-theme-git
 pamac-aur
@@ -668,13 +653,42 @@ arco-calamares-config-next-git
 #arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DESKTOP SPECIFIC
+#                                DISPLAY MANAGER 
+###########################################################################
+
+###lightdm
+accountsservice
+lightdm
+
+###########################################################################
+#                         PICOM OR COMPTON 
+###########################################################################
+
+picom
+
+###########################################################################
+#                         GENERAL DESKTOP RELATED
+###########################################################################
+
+mugshot
+menulibre
+
+###########################################################################
+#                         ARCOLINUX ISO SPECIFIC
+###########################################################################
+
+###########################################################################
+#                                 i3
 ###########################################################################
 
 ###i3wm
 i3status
 i3blocks
 i3-gaps
+
+###########################################################################
+#                               OPENBOX
+###########################################################################
 
 ###openbox
 gtk2-perl
@@ -684,6 +698,16 @@ obmenu-generator
 obconf
 openbox
 perl-linux-desktopfiles
+tint2
+xcape
+openbox-themes-pambudi-git
+
+###lx-applications
+lxappearance
+#lxappearance-gtk3
+lxappearance-obconf
+#lxappearance-obconf-gtk3
+lxrandr
 
 ###########################################################################
 #                                XFCE
@@ -734,7 +758,7 @@ xfce4-netload-plugin
 xfce4-notes-plugin
 xfce4-notifyd
 xfce4-pulseaudio-plugin
-#xfce4-screensaver
+xfce4-screensaver
 xfce4-screenshooter
 xfce4-sensors-plugin
 xfce4-smartbookmark-plugin
