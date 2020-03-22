@@ -306,7 +306,7 @@ file-roller
 #filezilla
 git
 gksu
-glances
+#glances
 gnome-disk-utility
 gnome-keyring
 gnome-screenshot
@@ -344,7 +344,7 @@ qt5ct
 qt5-styleplugins
 #qt5-tools
 qt5-webkit
-powertop
+#powertop
 reflector
 #redshift
 rofi
@@ -360,7 +360,7 @@ gufw
 unace
 unrar
 unzip
-vnstat
+#vnstat
 w3m
 webkit2gtk
 wmctrl
