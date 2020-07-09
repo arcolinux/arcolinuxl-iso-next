@@ -20,6 +20,7 @@ dmraid
 dnsmasq
 dnsutils
 dosfstools
+efibootmgr
 #elinks
 ethtool
 exfat-utils
@@ -34,7 +35,7 @@ hdparm
 ipw2100-fw
 ipw2200-fw
 irssi
-#iwd
+iwd
 jfsutils
 #lftp
 linux-atm
@@ -54,6 +55,7 @@ nfs-utils
 nilfs-utils
 #nmap
 ntfs-3g
+nvme-cli
 ntp
 openconnect
 openssh
@@ -63,7 +65,7 @@ parted
 partimage
 ppp
 pptpclient
-refind
+#refind
 reiserfsprogs
 rp-pppoe
 rsync
