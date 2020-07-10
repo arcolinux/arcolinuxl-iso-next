@@ -50,7 +50,7 @@ mdadm
 mtools
 nano
 ndisc6
-netctl
+#netctl
 nfs-utils
 nilfs-utils
 #nmap
