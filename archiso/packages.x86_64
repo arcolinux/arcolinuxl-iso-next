@@ -20,7 +20,7 @@ dmraid
 dnsmasq
 dnsutils
 dosfstools
-#efibootmgr
+efibootmgr
 #elinks
 ethtool
 exfat-utils
