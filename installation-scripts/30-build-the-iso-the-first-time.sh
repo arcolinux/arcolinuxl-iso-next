@@ -23,8 +23,8 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 1 : get the latest bashrc from github";tput sgr0
 echo "################################################################## "
 echo
-echo "Removing old files/folders from /etc/skel"
-rm -rf ../archiso/airootfs/etc/skel/.* 2> /dev/null
+#echo "Removing old files/folders from /etc/skel"
+#rm -rf ../archiso/airootfs/etc/skel/.* 2> /dev/null
 echo "getting .bashrc from arcolinux-root"
 wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
 echo ".bashrc copied to /etc/skel"
