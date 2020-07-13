@@ -52,7 +52,7 @@ function editOrCreateConfigFilesFunc () {
 function configRootUserFunc() {
     usermod -s /usr/bin/bash root
     cp -aT /etc/skel/ /root/
-    chmod 700 /root
+    chmod 750 /root
 }
 
 function createLiveUserFunc () {
