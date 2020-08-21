@@ -122,6 +122,7 @@ make_customize_airootfs() {
     echo "###################################################################"
     tput setaf 3;echo "4. Customize installation (airootfs)";tput sgr0
     echo "###################################################################"
+    #ArcoLinux repositories in pacman.conf
     cp ${script_path}/pacman.conf.work_dir ${work_dir}/x86_64/airootfs/etc/pacman.conf
 
     if [[ -e "${script_path}/airootfs/etc/passwd" ]]; then
