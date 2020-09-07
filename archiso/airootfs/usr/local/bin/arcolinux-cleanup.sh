@@ -8,5 +8,4 @@ rm /usr/local/bin/arcolinux-all-cores.sh
 mv /etc/arcolinux-release /etc/lsb-release
 pacman -R mkinitcpio-archiso --noconfirm
 mv /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
-gsettings set org.blueberry use-symbolic-icons false
 rm /usr/local/bin/arcolinux-cleanup.sh
