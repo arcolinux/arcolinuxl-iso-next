@@ -1,11 +1,10 @@
-#!/bin/bash
+ #!/bin/bash
 echo "#################################"
 echo "Start arcolinux-final.sh"
 echo "#################################"
 
 echo "Permissions of important folders"
 echo "#################################"
-chmod 750 /root
 chmod 750 /etc/sudoers.d
 chmod 750 /etc/polkit-1/rules.d
 chgrp polkitd /etc/polkit-1/rules.d
@@ -45,6 +44,10 @@ rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
 rm /root/{.automated_script.sh,.zlogin}
 mv /etc/arcolinux-release /etc/lsb-release
 mv /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
+
+echo "Permission of root"
+echo "#################################"
+chmod -v 750 /root
 
 echo "#################################"
 echo "End arcolinux-final.sh"
