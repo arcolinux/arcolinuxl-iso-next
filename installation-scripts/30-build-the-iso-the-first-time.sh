@@ -37,20 +37,20 @@ echo
 	buildFolder=$HOME"/arcolinux-build"
 	outFolder=$HOME"/ArcoLinux-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
-	
-	echo "################################################################## "		
+
+	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
 	echo "Bulding version                        : "$arcolinuxVersion
 	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "Build folder                           : "$buildFolder
 	echo "Out folder                             : "$outFolder
-	echo "################################################################## "		
+	echo "################################################################## "
 
 echo
 echo "################################################################## "
 tput setaf 2
-echo "Phase 2 :" 
+echo "Phase 2 :"
 echo "- Checking if archiso is installed"
 echo "- Saving current archiso version to readme"
 echo "- Making mkarchiso verbose"
@@ -294,8 +294,8 @@ echo
 	echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"
-	cp $buildFolder/archiso/work/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".iso.pkglist.txt"
-	
+	cp $buildFolder/archiso/work/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
+
 
 echo
 echo "##################################################################"
