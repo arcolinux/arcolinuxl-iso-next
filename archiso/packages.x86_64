@@ -88,7 +88,7 @@ rsync
 sdparm
 sg3_utils
 smartmontools
-squashfs-tools
+#squashfs-tools
 sudo
 syslinux
 #systemd-resolvconf
