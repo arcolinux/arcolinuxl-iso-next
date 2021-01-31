@@ -38,8 +38,8 @@ echo
 	buildFolder=$HOME"/arcolinux-build"
 	outFolder=$HOME"/ArcoLinux-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
-
-	echo "################################################################## "
+	
+	echo "################################################################## "		
 	echo "Building the desktop                   : "$desktop
 	echo "Building version                       : "$arcolinuxVersion
 	echo "Iso label                              : "$isoLabel

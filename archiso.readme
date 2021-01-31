@@ -12,9 +12,6 @@ We are now using this version
 archiso-version=archiso 50.1-1
 
 
-sudo pacman -Q archiso and you will know your version
-
-
 Downgrade to this version via a command in the terminal if you have a higher version.
 
 downgrade archiso
