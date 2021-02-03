@@ -717,8 +717,6 @@ arco-calamares-config-next-git
 
 accountsservice
 
-#lightdm-gtk-greeter
-#lightdm-gtk-greeter-settings
 
 ###sddm
 sddm
