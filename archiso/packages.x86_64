@@ -21,7 +21,7 @@ diffutils
 dmraid
 dnsmasq
 dnsutils
-#dosfstools
+dosfstools
 edk2-shell
 efibootmgr
 ethtool
@@ -650,7 +650,7 @@ arcolinux-dconf-git
 arco-calamares-next
 arcolinux-system-installation-git
 #arcolinux-config-live-session-git
-arcolinux-welcome-app-dev-git
+arcolinux-welcome-app-git
 arcolinux-calamares-tool-git
 
 ###########################################################################
@@ -849,6 +849,3 @@ xfce4-panel-profiles
 #                                ISO SPECIFIC
 ###########################################################################
 polybar
-
-#fix for new version
-dosfstools
