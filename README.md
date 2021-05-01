@@ -1,3 +1,3 @@
-# arcolinux-iso-next
+# arcolinuxl-iso-next
 
 # Next Release

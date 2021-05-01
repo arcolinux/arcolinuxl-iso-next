@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="arcolinux-next"
-iso_label="arcolinux-next-v21.05.7"
+iso_name="arcolinuxl-next"
+iso_label="arcolinuxl-next-v21.05.7"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinux Live/Rescue CD"
 iso_version="v21.05.7"
