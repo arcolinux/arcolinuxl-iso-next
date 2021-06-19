@@ -892,3 +892,5 @@ xfce4-panel-profiles
 #                                ISO SPECIFIC
 ###########################################################################
 arcolinux-system-config-dev-git
+arcolinux-meta-log
+gnome-system-tools
