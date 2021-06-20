@@ -154,7 +154,7 @@ xf86-video-fbdev
 #xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
-xf86-video-qxl
+#xf86-video-qxl
 xf86-video-vesa
 xf86-video-vmware
 #xf86-video-voodoo
@@ -564,6 +564,7 @@ arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 #arcolinux-system-config-git
+arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
 arcolinux-systemd-services-git
 arcolinux-termite-themes-git
@@ -891,5 +892,4 @@ xfce4-panel-profiles
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
-arcolinux-system-config-dev-git
 arcolinux-meta-log
