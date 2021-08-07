@@ -41,7 +41,7 @@ if [[ $selection == "free" ]]; then
 	pacman -R --noconfirm nvidia nvidia-utils nvidia-settings
 fi
 
-#freenonoveau = remove nvidia and nouveau
+#freenonouveau = remove nvidia and nouveau
 selection=$(get_driver)
 echo "#################################"
 echo "Selection was "$selection
