@@ -413,7 +413,7 @@ xapp
 xdo
 xdotool
 xdg-desktop-portal-gtk
-#yt-dlp
+yt-dlp
 #youtube-dl
 zenity
 zsh
