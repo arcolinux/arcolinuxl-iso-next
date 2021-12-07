@@ -25,5 +25,4 @@ file_permissions=(
   ["/usr/local/bin/arcolinux-remove-nvidia"]="0:0:755"
   ["/usr/local/bin/arcolinux-displaymanager-check"]="0:0:755"
   ["/usr/local/bin/arcolinux-before"]="0:0:755"
-  ["/usr/local/bin/arcolinux-desktop-specific"]="0:0:755"
 )
