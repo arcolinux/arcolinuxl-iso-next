@@ -43,4 +43,5 @@ fi
 echo "#################################"
 echo "End arcolinux-displaymanager-check"
 echo "#################################"
-rm /usr/local/bin/arcolinux-displaymanager-check
+
+#rm /usr/local/bin/arcolinux-displaymanager-check

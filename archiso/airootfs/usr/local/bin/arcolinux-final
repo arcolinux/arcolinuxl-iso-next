@@ -57,8 +57,11 @@ chmod -v 750 /root
 echo "#################################"
 echo "End arcolinux-final"
 echo "#################################"
+systemctl disable arcolinux-graphical-target.service
+rm /etc/systemd/system/arcolinux-graphical-target.service
+rm /usr/local/bin/arcolinux-graphical-target
 rm /usr/local/bin/arcolinux-before
 rm /usr/local/bin/arcolinux-desktop-specific
 rm /usr/local/bin/arcolinux-displaymanager-check
-rm /usr/local/bin/arcolinux-remove-nvidia
+rm /usr/local/bin/arcolinux-mkinitcpio
 rm /usr/local/bin/arcolinux-final
