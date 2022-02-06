@@ -9,7 +9,6 @@ if [ -f /usr/bin/snapper ]; then
 	do 
 		snapper --no-dbus delete $i
 	done
-	snapper -c root --no-dbus create -d "ArcoLinux Start"   
 fi
 
 echo
