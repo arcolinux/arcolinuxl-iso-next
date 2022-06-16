@@ -736,6 +736,7 @@ arcolinux-welcome-app-dev-git
 ###########################################################################
 
 ckbcomp
+xkeyboard-config
 upower
 kcoreaddons
 kconfig
