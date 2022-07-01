@@ -2,15 +2,15 @@
 # shellcheck disable=SC2034
 
 iso_name="arcolinuxl-next"
-iso_label="arcolinuxl-next-v22.09.01"
+iso_label="arcolinuxl-next-v22.09.02"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinux Live/Rescue CD"
-iso_version="v22.09.01"
+iso_version="v22.09.02"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
-	   'uefi-ia32.grub.esp' 'uefi-x64.systemd-boot.esp'
-	   'uefi-ia32.grub.eltorito' 'uefi-x64.systemd-boot.eltorito')
+           'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'
+           'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
