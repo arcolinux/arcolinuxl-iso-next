@@ -580,8 +580,8 @@ arcolinux-qt5-git
 arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
-#arcolinux-system-config-git
-arcolinux-system-config-dev-git
+arcolinux-system-config-git
+#arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
 arcolinux-systemd-services-git
 arcolinux-termite-themes-git
@@ -716,17 +716,17 @@ arcolinux-dconf-all-desktops-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-#arco-calamares
+arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
 #arco-calamares-git
-arco-calamares-next
-#arcolinux-system-installation-git
-arcolinux-system-installation-dev-git
+#arco-calamares-next
+arcolinux-system-installation-git
+#arcolinux-system-installation-dev-git
 #arcolinuxd-config-live-session-git
-#arcolinux-welcome-app-git
+arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
-arcolinux-welcome-app-dev-git
+#arcolinux-welcome-app-dev-git
 #arcolinux-welcome-app-deepin-git
 #arcolinux-calamares-tool-git
 #arcolinux-calamares-tool-dev-git
@@ -790,12 +790,12 @@ adobe-source-han-sans-cn-fonts
 #arcob-calamares-config-xmonad-git
 #arcob-calamares-config-xtended-git
 #arco-calamares-config-b-git
-#arco-calamares-config-xl-git
+arco-calamares-config-xl-git
 #arco-calamares-config-xl-git-git
 #arco-calamares-config-xl-dev-git
 #arco-calamares-config-xs-git
 #arco-calamares-config-xs-lts-git
-arco-calamares-config-xl-next-git
+#arco-calamares-config-xl-next-git
 #arcod-calamares-config-git
 #arcod-calamares-config-git-git
 #arcod-calamares-config-comp-git
@@ -947,3 +947,5 @@ fish
 arcolinux-fish-git
 ripgrep-all
 archlinux-login-backgrounds-plain-git
+vimix-cursors
+arcolinux-arc-themes-2021-sky-git
