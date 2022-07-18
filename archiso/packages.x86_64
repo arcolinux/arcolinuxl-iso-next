@@ -485,7 +485,7 @@ hardcode-fixer-git
 inxi
 mintstick-git
 neofetch
-numix-gtk-theme-git
+#numix-gtk-theme-git
 arcolinux-pamac-all
 #pamac-aur
 paru-bin
