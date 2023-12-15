@@ -700,8 +700,8 @@ arcolinux-dconf-all-desktops-git
 #arco-calamares-git
 arco-calamares-next
 #arco-calamares-wayland
-#arcolinux-system-installation-git
-arcolinux-system-installation-dev-git
+arcolinux-system-installation-git
+#arcolinux-system-installation-dev-git
 #arcolinuxd-config-live-session-git
 arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
@@ -937,3 +937,4 @@ sofirem-git
 noto-fonts-emoji
 hyfetch
 arcolinux-hyfetch-git
+kernel-modules-hook
