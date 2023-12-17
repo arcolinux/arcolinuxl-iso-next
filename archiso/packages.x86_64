@@ -554,8 +554,8 @@ arcolinux-root-git
 arcolinux-system-config-git
 #arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
-#arcolinux-systemd-services-git
-arcolinux-systemd-services-dev-git
+arcolinux-systemd-services-git
+#arcolinux-systemd-services-dev-git
 #arcolinux-sway-profile-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
