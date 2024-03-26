@@ -58,7 +58,6 @@ lvm2
 #lynx
 man-db
 man-pages
-#mc
 mdadm
 memtest86+
 memtest86+-efi
@@ -448,7 +447,7 @@ downgrade
 font-manager
 #glxinfo
 gitahead-bin
-grub-customizer
+#grub-customizer
 hardcode-fixer-git
 inxi
 mintstick-git
@@ -493,6 +492,7 @@ yay-bin
 arcolinux-alacritty-git
 arcolinux-arc-kde
 arcolinux-bin-git
+arcolinux-bootloader-grub-git
 #arcolinux-btop-git
 a-candy-beauty-icon-theme-git
 #arcolinux-common-git
@@ -548,8 +548,8 @@ arcolinux-qt5-git
 arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
-arcolinux-system-config-git
-#arcolinux-system-config-dev-git
+#arcolinux-system-config-git
+arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
 arcolinux-systemd-services-git
 #arcolinux-systemd-services-dev-git
@@ -706,8 +706,8 @@ arcolinux-config-all-desktops-git
 #arco-calamares-git
 arco-calamares-next
 #arco-calamares-wayland
-arcolinux-system-installation-git
-#arcolinux-system-installation-dev-git
+#arcolinux-system-installation-git
+arcolinux-system-installation-dev-git
 #arcolinuxd-config-live-session-git
 #arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
@@ -954,8 +954,6 @@ arcolinux-app-glade-git
 noto-fonts-emoji
 hyfetch
 arcolinux-hyfetch-git
-#does this create issues?
-#kernel-modules-hook
 arcolinux-xfce-prime-git
 arcolinux-arc-dawn-git
 
